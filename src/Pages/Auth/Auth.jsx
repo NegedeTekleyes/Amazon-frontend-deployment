@@ -56,8 +56,10 @@ const Auth = () => {
     <section className={Styles.login}>
       {/* logo */}
       <Link to={"/"}>
-        <img src="https://pngimg.com/uploads/amazon/amazon_PNG3.png" alt="Amazon Logo" />
-      </Link>
+<img
+                src="../../src/assets/logo.png"
+                alt="EthioShop logo"
+              />      </Link>
 
       {/* form */}
       <div className={Styles.login_container}>
@@ -113,7 +115,7 @@ const Auth = () => {
 
         {/* Agreement */}
         <p>
-          By signing in you agree to the AMAZON FAKE CLONE Conditions of use & Sale.
+          By signing in you agree to the EthioShop Conditions of use & Sale.
           Please see our Privacy Notice, our Cookies Notice, and our Interest-Based Ads Notice.
         </p>
 
@@ -126,7 +128,7 @@ const Auth = () => {
         >
           {
             loading.signUp ? (<ClipLoader color="#36d7b7" size={20} />) // Show loading spinner
-              : ("Create your Amazon Account"
+              : ("Create your EthioShop Account"
           )}
         </button>
         {

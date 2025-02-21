@@ -31,7 +31,7 @@ position: relative;
     left: 0;
 
 }
-.button:hover var(--primary-color);
+.button:hover var(--primary-color); 
 
 .rating {
 display: flex;
@@ -45,6 +45,7 @@ padding: 10px 0px;
     margin: 100px, auto, 100px, auto;
     gap: 50px;
     justify-items: center;
+    align-items: center;
 
 }
 .products_container section{

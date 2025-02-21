@@ -27,8 +27,8 @@ const Header = () => {
           <div className={styles.logo_container}>
             <Link to="/">
               <img
-                src="https://pngimg.com/uploads/amazon/amazon_PNG11.png"
-                alt="amazon logo"
+                src="../../src/assets/logo.png"
+                alt="EthioShop logo"
               />
             </Link>
             <div className={styles.delivery}>
